@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Board {
 	int[][] guesses;
 	int[][] ships;
@@ -8,15 +10,20 @@ public class Board {
 	}
 	
 	public void printBoard() {
+		String[] ships = {"- "};
 	//makes sure that there are 10 rows
 		for (int i = 0; i < 10; i++) {
 		//prints out the rows
 			for (int j = 0; j < 10; j++) { 
-				System.out.print(ships[i][j]);
+				String row = (Arrays.toString(ships));
+				System.out.print(row.substring(1, row.length() - 1));
 			}
+			System.out.println("");
 		}
 	}
 }
+
+
 
 //public String toString() {
 	//return 
