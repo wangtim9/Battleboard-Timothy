@@ -27,4 +27,8 @@ public class Board {
 
 //public String toString() {
 	//retur
-	
+
+public boolean placeShips(int row, int col int len, boolean horizontal) {
+/*
+*/
+}
