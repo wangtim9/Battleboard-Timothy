@@ -30,5 +30,12 @@ public class Board {
 
 public boolean placeShips(int row, int col int len, boolean horizontal) {
 /*
+ask for a specific spot on the board and mkae sure it is valid
+
+ask if this is where they want to place their ship and wait for a yes or no
+
+board is reprinted with ship placement
+
+goes onto next ship to place
 */
 }
